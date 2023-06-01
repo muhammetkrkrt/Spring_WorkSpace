@@ -1,0 +1,23 @@
+# appication.properties
+# server.port=9090
+# TODO: Dikkat, burada key-value çalışmalarında anahtar: bilgisinden sonra değer bir boşluk bırakılarak yazılmalıdır.
+# YML yanlış kullanımları
+# server:
+#   port:9090  -- iki noktaya bitişik değer yazımı yanlıştır.
+# server:
+# port: 9090 -- port değeri server in alt başlığıdır bu nedenle aynı hizada değil bir tab içeride yazılmalı
+server:
+  port: 9090
+
+# spring.datasource.url
+# spring.datasource.username
+# spring.datasource.password
+# spring.datasource.driver-class-name
+
+spring:
+  datasource:
+    url: ""
+    username: ""
+    password: ""
+    driver-class-name: ""
+
