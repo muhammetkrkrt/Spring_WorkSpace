@@ -1,16 +1,17 @@
-
 server:
   port: 9090
 
 spring:
   datasource:
-    url: "jdbc:postgresql://localhost:5432/PersonelYonetimSistemi"
+    url: "jdbc:postgresql://localhost:5432/springDemo"
     username: "postgres"
     password: "12345678"
     driver-class-name: "org.postgresql.Driver"
 
   jpa:
     hibernate:
-     ddl-auto: update
+      ddl-auto: update
     show-sql: true
-
+    properties:
+      hibernate:
+        format_sql: true

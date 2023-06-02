@@ -1,4 +1,4 @@
-package com.muhammet.repository.entity;
+package com.muhammet.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -11,12 +11,13 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Builder
 @Entity
-@Table(name = "tblpersoneldepartman")
-public class PersonelDepartman {
+@Table(name = "tbldepartman")
+public class Kitap {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    Long id;
-    Long departmanid;
-    Long personelid;
+    private Long id;
+    private String baslik;
+    private String yazarIsmi;
+    private int sayfaSayisi;
 }
