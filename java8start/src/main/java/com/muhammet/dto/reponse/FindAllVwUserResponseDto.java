@@ -13,5 +13,5 @@ public class FindAllVwUserResponseDto {
     Long id;
     String ad;
     String photo;
-
+    String acildurumkisisi;
 }

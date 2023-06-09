@@ -1,11 +1,14 @@
 package com.movieapp.controller;
 
+import com.movieapp.dto.request.UserRegisterRequestDto;
+import com.movieapp.dto.response.UserFindAllResponseDto;
+import com.movieapp.dto.response.UserRegisterResponseDto;
 import com.movieapp.entity.User;
-import com.movieapp.entity.UserType;
 import com.movieapp.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -19,9 +22,18 @@ public class UserController {
 
     private final UserService userService;
 
+    @PostMapping("/register")
+    public UserRegisterResponseDto createUser(UserRegisterRequestDto dto){
+        return userService.register(dto);
+    }
     @GetMapping("/create")
     public User createUser(String name, String surname, String email, String phone, String password, String userType){
         return userService.createUser(name,surname,email,phone,password,userType);
+    }
+
+    @GetMapping("/findall")
+    public List<UserFindAllResponseDto> findAll(){
+        return userService.findAllResponseDto();
     }
     @GetMapping("/findall")
     public List<User> createUser(){

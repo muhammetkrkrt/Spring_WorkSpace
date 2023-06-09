@@ -30,4 +30,8 @@ public class GenreService {
         }
         return genreList;
     }
+
+    public List<Genre> findGenreList(Long id){
+        return genreRepository.findGenreList(id);
+    }
 }

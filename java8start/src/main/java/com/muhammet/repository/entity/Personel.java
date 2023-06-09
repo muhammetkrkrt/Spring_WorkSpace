@@ -21,6 +21,8 @@ public class Personel {
     String telefon;
     String photo;
     Integer yas;
+    String acildurumtelefonu;
+    String acildurumkisisi;
     Long giristarihi;
 
     Integer type;

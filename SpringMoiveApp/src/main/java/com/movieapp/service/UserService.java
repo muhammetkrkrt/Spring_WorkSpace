@@ -1,5 +1,9 @@
 package com.movieapp.service;
 
+import com.movieapp.dto.request.UserRegisterRequestDto;
+import com.movieapp.dto.response.UserFindAllResponseDto;
+import com.movieapp.dto.response.UserRegisterResponseDto;
+import com.movieapp.entity.Genre;
 import com.movieapp.entity.User;
 import com.movieapp.entity.UserType;
 import com.movieapp.repository.IUserRepository;
@@ -8,6 +12,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
@@ -76,4 +81,37 @@ public class UserService {
     public Optional<User> findByEmailAndPassword(String mail, String password){
         return userRepository.findByEmailAndPassword(mail,password);
     }
+
+
+    public UserRegisterResponseDto register(UserRegisterRequestDto dto){
+        User user = User.builder().name(dto.getName())
+                .surname(dto.getSurname())
+                .email(dto.getEmail())
+                .password(dto.getPassword())
+                .build();
+        userRepository.save(user);
+        return UserRegisterResponseDto.builder()
+                .id(user.getId())
+                .name(user.getName())
+                .surname(user.getSurname())
+                .userType(user.getUserType())
+                .build();
+    }
+
+
+    public List<UserFindAllResponseDto> findAllResponseDto() {
+        return userRepository.findAll().stream().map(x->{
+            return UserFindAllResponseDto.builder()
+                    .id(x.getId())
+                    .name(x.getName())
+                    .surname(x.getSurname())
+                    .favGenres(x.getFavGenres())
+                    .favMovie(x.getFavMovies())
+                    .phone(x.getPhone())
+                    .userType(x.getUserType())
+                    .build();
+        }).collect(Collectors.toList());
+
+    }
+
 }
