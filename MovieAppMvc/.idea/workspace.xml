@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="89f64248-2410-48ef-a996-521645b158da" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../hastanerandevu/src/main/java/com/muhammet/dto/request/BransSaveRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hastanerandevu/src/main/java/com/muhammet/dto/request/DoktorSaveRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hastanerandevu/src/main/java/com/muhammet/dto/request/HastaSaveRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hastanerandevu/src/main/java/com/muhammet/dto/request/RandevuSaveRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hastanerandevu/src/main/java/com/muhammet/dto/response/DoktorResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hastanerandevu/src/main/java/com/muhammet/mapper/IDoktorMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hastanerandevu/src/main/java/com/muhammet/mapper/IHastaMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hastanerandevu/src/main/java/com/muhammet/reposıtory/view/VwDoktor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hastanerandevu/src/main/java/com/muhammet/HastanerandevuApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hastanerandevu/src/main/java/com/muhammet/HastanerandevuApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hastanerandevu/src/main/java/com/muhammet/constants/RestApiList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hastanerandevu/src/main/java/com/muhammet/constants/RestApiList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hastanerandevu/src/main/java/com/muhammet/controller/BransControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hastanerandevu/src/main/java/com/muhammet/controller/BransControler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hastanerandevu/src/main/java/com/muhammet/controller/DoktorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hastanerandevu/src/main/java/com/muhammet/controller/DoktorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hastanerandevu/src/main/java/com/muhammet/controller/HastaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hastanerandevu/src/main/java/com/muhammet/controller/HastaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hastanerandevu/src/main/java/com/muhammet/controller/RandevuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hastanerandevu/src/main/java/com/muhammet/controller/RandevuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hastanerandevu/src/main/java/com/muhammet/exceptions/ErrorType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hastanerandevu/src/main/java/com/muhammet/exceptions/ErrorType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hastanerandevu/src/main/java/com/muhammet/exceptions/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hastanerandevu/src/main/java/com/muhammet/exceptions/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hastanerandevu/src/main/java/com/muhammet/reposıtory/IBransRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hastanerandevu/src/main/java/com/muhammet/reposıtory/IBransRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hastanerandevu/src/main/java/com/muhammet/reposıtory/IDoktorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hastanerandevu/src/main/java/com/muhammet/reposıtory/IDoktorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hastanerandevu/src/main/java/com/muhammet/servıce/BransService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hastanerandevu/src/main/java/com/muhammet/servıce/DoktorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hastanerandevu/src/main/java/com/muhammet/servıce/HastaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hastanerandevu/src/main/java/com/muhammet/servıce/RandevuService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java8start/src/main/java/com/muhammet/controller/PersonelDepartmanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java8start/src/main/java/com/muhammet/controller/PersonelDepartmanController.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2R8h4HYgNV6Jgy7MWsoSI5Xuj4D" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/SpringBoot/SpringMovieAppMvc",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "295e48ef3522cd075ad9b69352fdb406",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SpringBoot\MovieAppMvc\src\main\resources\templates" />
+      <recent name="D:\SpringBoot\MovieAppMvc\src\main\resources\static\img" />
+      <recent name="D:\SpringBoot\MovieAppMvc\src\main\resources\static" />
+      <recent name="D:\SpringBoot\MovieAppMvc\src\main\java\com\muhammet\service" />
+      <recent name="D:\SpringBoot\MovieAppMvc\src\main\java\com\muhammet\repository" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MovieAppMvcApplication">
+    <configuration name="deneme.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MovieAppMvc/MovieAppMvc/src/main/resources/templates/deneme.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="MovieAppMvcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="MovieAppMvc.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.muhammet.MovieAppMvcApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.deneme.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="89f64248-2410-48ef-a996-521645b158da" name="Changes" comment="" />
+      <created>1686637425267</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686637425267</updated>
+      <workItem from="1686637427175" duration="8733000" />
+      <workItem from="1686732837125" duration="1429000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

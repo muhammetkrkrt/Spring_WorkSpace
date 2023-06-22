@@ -1,0 +1,37 @@
+# appication.properties
+# server.port=9090
+# TODO: Dikkat, burada key-value çalışmalarında anahtar: bilgisinden sonra değer bir boşluk bırakılarak yazılmalıdır.
+# YML yanlış kullanımları
+# server:
+#   port:9090  -- iki noktaya bitişik değer yazımı yanlıştır.
+# server:
+# port: 9090 -- port değeri server in alt başlığıdır bu nedenle aynı hizada değil bir tab içeride yazılmalı
+server:
+  port: 9090
+
+# spring.datasource.url
+# spring.datasource.username
+# spring.datasource.password
+# spring.datasource.driver-class-name
+
+spring:
+  main:
+    allow-circular-references: true
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/HastaneRandevuDb"
+    username: "postgres"
+    password: "12345678"
+    driver-class-name: "org.postgresql.Driver"
+  jpa:
+    hibernate:
+      ddl-auto: update # create-> her seferinden yeniden oluştur. create-drop-> uygulama kapatıldığında tabloları siler. update-> varsa günceller yoksa oluşturur.
+    show-sql: true
+
+
+myapplication:
+    name: "Developer Hastane Randevu Sistemi"
+    version: "1.0.0"
+    description: "Hastane Randevu Sistemi"
+
+burayaistediginiyazabilirsin:
+  bunun-bir-kriteri-yok: "dene istersen"
